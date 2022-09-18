@@ -7,8 +7,8 @@ Public Sub Autoopen()
     Num_str = 0
     Num_rl = 0
     
-    Num_str = InputBox("Введите количество страниц")
-    Num_rl = InputBox("Введите номер РЛ")
+    Num_str = InputBox("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂР°РЅРёС†")
+    Num_rl = InputBox("Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ Р Р›")
     
     For i = 1 To Num_str - 1
         Selection.EndKey Unit:=wdStory
